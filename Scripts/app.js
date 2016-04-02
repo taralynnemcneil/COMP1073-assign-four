@@ -48,10 +48,13 @@
     /* ==============================================
         CONTACT
     ============================================== */
-    var contactName = $('#contact-name');
-    var contactMail = $('#contact-mail');
-    var contactMessage = $('#contact-message');
-    var button = $('submit');
+    var contactName;
+    contactName = document.getElementById("contact-name");
+    var contactMail;
+    contactMail = document.getElementById("contact-mail");
+    var contactMessage;
+    contactMessage = document.getElementById("contact-message");
+    var button = document.getElementById('submit');
     button.addEventListener("click", function (){
         console.log(contactName.value);
         console.log(contactMail.value);
